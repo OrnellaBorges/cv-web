@@ -1,0 +1,206 @@
+/*===== RESET =====*/
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+img 
+{
+    max-width: 100%;
+    display: block;
+}
+/*======= RESET ======*/
+
+.header{
+    background-image: url("images/SIPLEC_BORGES_Ornella.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding-top: 66.64%;
+    position: relative;
+}
+
+.header-title-container{
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-size: 1rem;
+    padding-bottom: 20px;
+}
+
+.header-title-subcontainer{
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    margin-top: 1rem;
+}
+
+.header-title{
+    padding-bottom: 10px;
+}
+
+.button{
+    width: fit-content;
+    font-size: 0.4rem;
+    display: none;
+}
+
+/* .nav{
+
+} */
+
+
+.list{
+    list-style-type: none;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.list-elements{
+    border: 1px solid black; 
+    margin-bottom: 20px; 
+    background-color: white;
+    padding: 10px 20px; 
+    border-radius: 5px;
+    width: 150px;
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
+    color:black;
+}
+
+.list-elements:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+
+
+/* .nav
+{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    color: black;
+} */
+
+
+/* .list
+{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    list-style-type: none;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    background-color: white;
+    z-index: 1;
+    color: black;
+} */
+
+/* .li
+{
+    padding: 20px;
+} */
+
+
+
+/* .header-title-container
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 20px;
+
+} */
+
+/* @media screen and (min-width:1100px) 
+{
+    .nav{
+        height: auto;
+        width: 100%;
+    }
+
+    .list
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        width: 100%;
+        position: relative;
+        background-color: transparent;
+        color: white;
+    }
+
+    .list:hover
+{
+    background-color: white;
+    color: black;
+}
+
+    .li
+    {
+        text-align: center;
+    }
+
+    .li:nth-child(1)
+    {
+        padding: 0;
+        order: 7;
+    }
+
+    .li:nth-child(2)
+    {
+        order: 4;
+    }
+    .li:nth-child(3)
+    {
+        order: 1;
+    }
+    .li:nth-child(4)
+    {
+        order: 2;
+    }
+    .li:nth-child(5)
+    {
+        order: 3;
+    }
+    .li:nth-child(6)
+    {
+        order: 5;
+    }
+    .li:nth-child(7)
+    {
+        order: 6;
+    } 
+
+    .loupe-container
+    {
+        position: absolute;
+        right: 50px;
+    }
+}*/
