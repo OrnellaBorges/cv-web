@@ -1,0 +1,90 @@
+.header {
+  background-image: url("../images/SIPLEC_BORGES_Ornella.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding-top: 66.64%;
+  position: relative;
+}
+
+.header-title-container {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  font-size: 1rem;
+  padding-bottom: 20px;
+}
+
+.header-title-subcontainer {
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  margin-top: 1rem;
+}
+
+.header-title {
+  padding-bottom: 10px;
+}
+
+.button {
+  width: fit-content;
+  font-size: 0.4rem;
+  display: none;
+}
+
+.nav {
+  background-color: pink;
+  display: none;
+}
+
+.list {
+  list-style-type: none;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.list-elements {
+  border: 1px solid black;
+  margin-bottom: 20px;
+  background-color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  width: 150px;
+  text-decoration: none;
+}
+
+.grille {
+  max-width: 1300px;
+  width: 80%;
+  height: 1rem;
+  margin: 30px auto;
+  border: 1px solid blue;
+}
+
+.grille-element {
+  width: 10px;
+  height: 10px;
+  background-color: #333;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.list-elements:hover {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=style.css.map */
