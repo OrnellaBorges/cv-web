@@ -17,7 +17,6 @@
   font-family: Arial, Helvetica, sans-serif;
   color: black;
   font-size: 1rem;
-  padding-bottom: 20px;
 }
 
 .header-title-subcontainer {
@@ -65,20 +64,30 @@
 .grille {
   max-width: 1300px;
   width: 80%;
-  height: 1rem;
-  margin: 30px auto;
-  border: 1px solid blue;
+  height: auto;
+  margin: 10px auto;
+  border: 1px solid pink;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 100px);
+  grid-auto-columns: minmax(100px, auto);
+  justify-content: center;
+  grid-gap: 10px;
 }
 
-.grille-element {
-  width: 10px;
-  height: 10px;
-  background-color: #333;
+.grille-items {
+  width: 100px;
+  height: 100px;
+  border: 2px solid black;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-a {
+.link-section {
   text-decoration: none;
   color: black;
+  font-size: small;
 }
 
 .list-elements:hover {
