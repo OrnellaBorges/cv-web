@@ -76,7 +76,7 @@
     grid-gap: $mediumGap;
 }
 
-.grille-items{
+.grille-items {
     width: 100px;
     height: 100px;
     border: 2px solid black;
@@ -84,16 +84,35 @@
     display: flex;
     align-items: center;
     justify-content: center;
+
+    &:hover {
+        background-color: black;
+        cursor: pointer;
+
+        .link-section {
+            color: white;
+        }
+    }
 }
 
 .link-section{
-    text-decoration: none;
-    color:black;
-    font-size: small;
+    color: black;
+    font-size: 13px;
 }
 
-.list-elements:hover{
-    background-color: black;
-    color: white;
-    cursor: pointer;
-}
+
+
+
+
+/* .ma-liste {
+
+    .mon-element {
+        color: $royalBlue;
+    }
+
+    &:hover {
+        .mon-element {
+            color: rgb(255, 72, 0);
+        }
+    }
+} */

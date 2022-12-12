@@ -71,7 +71,7 @@
   grid-template-columns: repeat(auto-fill, 100px);
   grid-auto-columns: minmax(100px, auto);
   justify-content: center;
-  grid-gap: 10px;
+  grid-gap: 20px;
 }
 
 .grille-items {
@@ -83,17 +83,30 @@
   align-items: center;
   justify-content: center;
 }
-
-.link-section {
-  text-decoration: none;
-  color: black;
-  font-size: small;
-}
-
-.list-elements:hover {
+.grille-items:hover {
   background-color: black;
-  color: white;
   cursor: pointer;
 }
+.grille-items:hover .link-section {
+  color: white;
+}
+
+.link-section {
+  color: black;
+  font-size: 13px;
+}
+
+/* .ma-liste {
+
+    .mon-element {
+        color: $royalBlue;
+    }
+
+    &:hover {
+        .mon-element {
+            color: rgb(255, 72, 0);
+        }
+    }
+} */
 
 /*# sourceMappingURL=style.css.map */
